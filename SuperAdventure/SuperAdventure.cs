@@ -29,7 +29,10 @@ namespace SuperAdventure
             player.ExperiencePoints = 0;
             player.Level = 1;
 
-
+            lblHitPoints.Text = player.CurrentHitPoints.ToString();
+            lblGold.Text = player.Gold.ToString();
+            lblExperience.Text = player.ExperiencePoints.ToString();
+            lblLevel.Text = player.Level.ToString();   
         }
 
         private void label1_Click(object sender, EventArgs e)
