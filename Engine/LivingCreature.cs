@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Weapon : Item
+    public class LivingCreature
     {
-        public int MaxDamage { get; set; }
-        public int MinDamage { get; set; }
+        public int CurrentHitPoints { get; set; }
+        public int MaxHitpPoints { get; set; }
     }
 }
