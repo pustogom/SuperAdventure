@@ -21,6 +21,8 @@ namespace SuperAdventure
         {
             InitializeComponent();
 
+            Location location = new Location(1, "Home", "This is your home.");
+  
             player = new Player();
 
             player.CurrentHitPoints = 10;
