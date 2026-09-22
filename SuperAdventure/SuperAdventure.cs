@@ -31,12 +31,44 @@ namespace SuperAdventure
             lblLevel.Text = player.Level.ToString();   
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        //UNSURE IF I NEED THESE BUT DON'T WANT TO DELETE UNTIL I'M CERTAIN 
+
+        //private void label1_Click(object sender, EventArgs e)
+        //{
+
+        //}
+
+        //private void SuperAdventure_Load(object sender, EventArgs e)
+        //{
+
+        //}
+
+        private void btnNorth_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void SuperAdventure_Load(object sender, EventArgs e)
+        private void btnEast_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSouth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnWest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUseWeapon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUsePotion_Click(object sender, EventArgs e)
         {
 
         }
